@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Serilog;
 
 namespace Test
+    //sgergsrgsrgsrg
 {
     /// <summary>
     /// ≈бать его рот бл€ть сукаgit add .
@@ -18,6 +19,11 @@ namespace Test
             {
                 config.RootPath = "ClientApp/build";
             });
+            builder.Host.UseSerilog();
+            builder.Services.AddControllers();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddScoped<IMapManager, MapService>();
+
             builder.Host.UseSerilog();
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
