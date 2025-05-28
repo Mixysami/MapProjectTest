@@ -5,6 +5,9 @@ using Serilog;
 
 namespace Test
 {
+    /// <summary>
+    /// ≈бать его рот бл€ть сукаgit add .
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
